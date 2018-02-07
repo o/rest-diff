@@ -9,11 +9,12 @@ package nl.youwe.diff.controller;
  * file that was distributed with this source code.
  */
 
+import name.fraser.neil.plaintext.diff_match_patch;
 import nl.youwe.diff.dto.DiffRequest;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import name.fraser.neil.plaintext.diff_match_patch;
+
 import javax.validation.Valid;
 import java.util.LinkedList;
 
