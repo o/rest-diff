@@ -73,7 +73,7 @@ curl -X POST --header 'Content-Type: application/json' --header 'Accept: applica
 ]
 ```
 
-It also supports single diff with html output and batch diff. This project comes with bundled Swagger UI,
+It also supports **single diff with html output** and **batch diff**. This project comes with bundled Swagger UI,
 you can access documentation of operations from <http://localhost:3000/swagger-ui.html>.
 
 ### LICENSE
