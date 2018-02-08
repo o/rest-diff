@@ -11,20 +11,21 @@ package nl.youwe.diff.dto;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
+import java.util.List;
 
-public class DiffRequest {
+public class BatchDiffRequest {
 
     @NotNull
     @Valid
-    private Context context;
+    private List<BatchContext> context;
 
     @NotNull
     private Options options;
 
-    public DiffRequest() {
+    public BatchDiffRequest() {
     }
 
-    public Context getContext() {
+    public List<BatchContext> getContext() {
         return context;
     }
 
